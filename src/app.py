@@ -58,7 +58,7 @@ def update_graph(value1,value2):
     words= " ".join(i for i in df_words)
     words_dict=Counter(words.split(" "))
         
-    fig2 = WordCloud(width=1000,height=700,background_color="white",stopwords=STOPWORDS,font_path=r"arial.ttf").generate_from_frequencies(words_dict)    
+    fig2 = WordCloud(width=1000,height=700,background_color="white",stopwords=STOPWORDS,font_path=r"arial.ttf").generate(words)    
     fig_WC=px.imshow(fig2)
         
     return fig,fig_WC
