@@ -1,0 +1,7 @@
+
+@echo off
+set datetime=%date% %time%
+set /p commit_message="Enter commit message: "
+git add .
+git commit -m "%commit_message%"
+git push origin main
