@@ -93,5 +93,7 @@ def update_graph(value1,value2,value3):
         
     return fig,fig_WC,fig3
 
+# A comment to check git push
+
 if __name__=="__main__":
     app.run(debug=True)
