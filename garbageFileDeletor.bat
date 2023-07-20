@@ -1,2 +1,2 @@
 echo off
-del garbagetxtfile.txt
+del grabagetxtfile.txt
