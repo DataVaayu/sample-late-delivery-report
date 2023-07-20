@@ -1,0 +1,1 @@
+echo "This is a grabage text file">grabagetxtfile.txt
