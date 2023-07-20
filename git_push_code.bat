@@ -1,5 +1,5 @@
  
-@echo off
+@echo on
 set datetime=%date% %time%
 
 git add .
